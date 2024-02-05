@@ -1,0 +1,305 @@
+---
+title: "Opening the doors..."
+subtitle: "Perception, cognition, & action"
+author: "Rick O. Gilmore"
+csl: include/bib/apa.csl
+bibliography: include/bib/refs.bib
+format: 
+  revealjs:
+    slide-number: true
+    footer: "Opening the doors"
+    citations-hover: true
+    footnotes-hover: true
+---
+
+# Preliminaries
+
+## Opening The Doors^[Thanks to Ennio Mingolla]
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![Jim Morrison, "The Doors", 1943-1971](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Jim_Morrison_1969.JPG/220px-Jim_Morrison_1969.JPG)
+
+:::
+
+::: {.column width="50%"}
+
+![Huxley, 1954](https://upload.wikimedia.org/wikipedia/en/thumb/1/17/DoorsofPerception.jpg/220px-DoorsofPerception.jpg)
+
+:::
+
+::::
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![William Blake, 1757-1827](https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/William_Blake_by_Thomas_Phillips.jpg/220px-William_Blake_by_Thomas_Phillips.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+>"*If the doors of perception were cleansed every thing would appear to man as it is, Infinite. For man has closed himself up, till he sees all things thro' narrow chinks of his cavern.*"
+
+:::
+
+::::
+
+## Agenda
+
+- Wherefore perception?
+- Discussion of
+  - Gilmore et al.
+  - Gibson
+  - Newell
+  
+# Wherefore perception?
+
+## What must animals do?
+
+## Behavioral priorities
+
+- Secure sustenance (food & drink)...
+- Avoid harm
+- (Maybe, just maybe...) reproduce
+
+## Behavioral primitives
+
+- Locomotion (wayfinding, steering, & balance)
+- Object interaction/manipulation
+- Communication (vocalizing & gesturing)
+
+## Perception informs...
+
+- Where things are; where they're moving
+- Who/what's out there
+- Where am I positioned/moving
+- What should I do next
+
+## *Extero*ception ($E$) provides information about...
+
+- Geometry and motion of objects and surfaces
+- Surface properties (color, texture, rigidity)
+- Object properties
+  - animate/inanimate; familiar/un-; person/animal...; threat/not-, etc.
+
+## *Intero*ception ($I$) provides information about...
+
+- Current states (of body, and thoughts, emotions, plans)
+- Past states (a.k.a., memories)
+- $E+I = P$
+
+## Measuring perception
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](https://www.psywww.com/intropsych/ch04-senses/04stevenscurves.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+### Psychophysics
+
+- Maps perception (*psycho*) to *physic*al features
+- Among the earliest ([Weber](https://en.wikipedia.org/wiki/Ernst_Heinrich_Weber) & [Fechner](https://en.wikipedia.org/wiki/Gustav_Fechner)) methods in experimental psychology
+
+:::
+
+::::
+
+## Rates of visual development
+
+- Vary across visual functions
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](include/img/kiorpes-2016-fig05-1.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![Figure 5 from [@Kiorpes2016-ut]](include/img/kiorpes-2016-fig05-2.jpg)
+
+:::
+
+::::
+
+## Rates of visual development
+
+- Some (e.g., motion perception) not mature until adolescence.
+
+## Implications?
+
+## Motor development
+
+![Data from Play & Learning Across a Year Project: <https://play-behaviorome.github.io/KoBoToolbox/>](https://play-behaviorome.github.io/KoBoToolbox/include/img/fig-walk-mos-kea-crawl-mos-1.png)
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![Davida Teller](https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/u2583/rectangular%20cards.jpg)
+
+:::
+
+::: {.column with="50%"}
+
+> "For me, one of the major attractions of visual science is the **promise it holds for empirical attacks on the mind-body problem**..."
+
+:::
+
+::::
+
+---
+
+> "...that is, for working out meaningful ways to explain psychophysically defined visual functions on the basis of properties of the neural substrate....
+
+---
+
+>...A critical locus or critical computation for a particular perceptual function can be defined as an anatomic or computational stage at which information concerning that function is lost or importantly reorganized..."
+
+---
+
+> "or more poetically, as a stage or computation that leaves its mark on that perceptual capacity."
+
+---
+
+> "Part of the appeal of visual development is its potential for extending this promise. **Visual functions mature because the visual substrate matures**, and the causes of functional maturation undoubtedly lie in neural maturation."
+
+---
+
+> "But the length of the big toe matures too, and we do not see it as causal in relation to the development of grating acuity. The puzzle is, **which of the many immaturities of the visual substrate provide the critical immaturities** that limit a particular visual capacity at a particular age?"
+
+# Measuring the experienced environment
+
+## Gilmore et al.
+
+## Posture changes visual input
+
+![[@Kretch2014-ck]](https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/kretch-etal.png)
+
+---
+
+| Parameter | Crawling Infant | Walking Infant |
+|-----------|-----------------|----------------|
+| Eye height| 0.30 m          | 0.60 m         |
+| Locomotor speed | 0.33 m/s  | 0.61 m/s       |
+| Head tilt | 20 deg          | 9 deg          |
+
+---
+
+![[@Gilmore2015-oj]](https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/simulation-flow-patterns.png)
+
+---
+
+![[@Gilmore2015-oj]](https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/simulation-flow-direction-hist.png)
+
+---
+
+| Type of Locomotion | Ground Plane | Room | Side Wall | Two Walls |
+|--------------------|--------------|------|-----------|-----------|
+| Crawling           | 14.41        | 14.42| 14.43     |14.62      |
+| Walking            | 9.38         | 8.56 | 7.39      |9.18       |
+
+## But, what's the input? The *real* input?
+
+<https://nyu.databrary.org/slot/7739/0,26634/asset/16747/download?inline=true>
+
+<https://nyu.databrary.org/slot/7739/0,26134/asset/16749/download?inline=true>
+
+---
+
+![[Figure 1 from @Kretch2015-hv]](https://onlinelibrary.wiley.com/cms/asset/0867708c-7679-43ed-b59f-85f11ae4caff/desc12251-fig-0001-m.png)
+
+---
+
+<div class="centered"> 
+<video width="640" height="480" controls>
+  <source src="https://nyu.databrary.org/slot/11680/0,24500/asset/41871/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</br>
+
+<p style="text-align:center;">
+[Jayaraman et al., 2015](https://doi.org/10.17910/B7988V)
+</p>
+
+</div>
+
+---
+
+<div class="centered">
+<video controls>
+  <source src="https://nyu.databrary.org/slot/11680/25500,50000/asset/41873/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+---
+
+<div class="centered">
+<video controls>
+  <source src="https://nyu.databrary.org/slot/11680/51000,75500/asset/41875/download?inline=true" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+</div>
+
+## Findings
+
+![[@Raudies2014-tg]](https://raw.githubusercontent.com/gilmore-lab/temple-2017-02-27/master/img/optic-flow-locomotion.jpg)
+
+---
+
+- Infant (passengers) experience faster visual speeds than mother
+- Controlling for speed of locomotion, environment
+- Motion "priors" for infants ≠ mothers
+
+<p style="text-align:center;">
+[@Raudies2014-tg]
+</p>
+
+## {background-iframe="https://www.anhourinthelife.org"}
+
+## Implications
+
+- If perception is changing across childhood...
+- What does that mean for cognition?
+
+# Gibson
+
+# Newell
+
+# Summing up
+
+## Perception
+
+- Develops across childhood
+- Physical development changes experienced visual input
+- But culture does not change motion input
+
+## Gibson & Newell
+
+- What should (developmental, cognitive) psychologists focus on?
+
+# Materials
+
+---
+
+The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/psy-538-cog-devel-2024/>.
+
+## References
