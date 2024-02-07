@@ -154,7 +154,7 @@ format:
 
 ::: {.column width="50%"}
 
-![Davida Teller](https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/u2583/rectangular%20cards.jpg)
+![Davida Teller](https://www.perkins.org/wp-content/uploads/elearning-media/u2583/rectangular%20cards.jpg)
 
 :::
 
@@ -419,5 +419,10 @@ Alan Newell</br>
 ---
 
 The code and materials used to generate the slides may be found at <https://github.com/psu-psychology/psy-538-cog-devel-2024/>.
+
+```{r fig-qr-code}
+this_qr <- qrcode::qr_code("https://psu-psychology.github.io/psy-538-cog-devel-2024/")
+plot(this_qr)
+```
 
 ## References

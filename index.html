@@ -515,7 +515,7 @@ Rick O. Gilmore
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="https://www.perkinselearning.org/sites/elearning.perkinsdev1.org/files/u2583/rectangular%20cards.jpg"></p>
+<p><img data-src="https://www.perkins.org/wp-content/uploads/elearning-media/u2583/rectangular%20cards.jpg"></p>
 <figcaption>Davida Teller</figcaption>
 </figure>
 </div>
@@ -858,7 +858,8 @@ Your browser does not support the video tag. </video>
 <section class="slide level2">
 
 <p>The code and materials used to generate the slides may be found at <a href="https://github.com/psu-psychology/psy-538-cog-devel-2024/" class="uri">https://github.com/psu-psychology/psy-538-cog-devel-2024/</a>.</p>
-</section>
+
+<img data-src="index_files/figure-revealjs/fig-qr-code-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Figure&nbsp;1: <strong>?(caption)</strong></p></section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 
@@ -1122,6 +1123,44 @@ Raudies, F., &amp; Gilmore, R. O. (2014). Visual motion priors differ for infant
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
