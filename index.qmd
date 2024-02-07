@@ -320,6 +320,7 @@ Eleanor Jack Gibson</br>
 
 - Developmental psychologist
 - Co-founder (with J.J. Gibson) of the ecological approach to psychology
+- Known (especially) for research on the visual cliff, reading, academic "progeny"
 
 :::
 
@@ -379,6 +380,7 @@ Alan Newell</br>
 
 - Cognitive scientist, computer scientist
 - Early founder of artificial intelligence field
+- Known for collaborations with Herbert Simon, cognitive architectures
 
 :::
 
