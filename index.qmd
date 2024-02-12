@@ -1,6 +1,6 @@
 ---
 title: "Opening the doors..."
-subtitle: "Perception, cognition, & action"
+subtitle: "The development of perception, cognition, & action"
 author: "Rick O. Gilmore"
 csl: include/bib/apa.csl
 bibliography: include/bib/refs.bib
@@ -62,9 +62,36 @@ format:
   
 # Wherefore perception?
 
+## What must animals perceive?
+
 ## What must animals do?
 
-## Behavioral priorities
+## Perception inextricably linked to action
+
+- Requires actions on the part of the perceiver
+  - Looking
+  - Sucking
+  - Touching
+  - Verbalizing, pointing, pressing buttons
+- $A$ depends on $P$ (+ internal states--goals, memories)
+- $P$ depends on $A$ (+ internal states--goals, memories)
+
+---
+
+![James J. and Eleanor J. Gibson](https://www.oreilly.com/api/v2/epubs/9781449326531/files/httpatomoreillycomsourceoreillyimages2160395.png.jpg)
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+![[@Gibson_JJ1979-ej]](https://pictures.abebooks.com/inventory/md/md31565116437.jpg)
+:::
+::: {.column width="50%"}
+![William H. Warren](https://vivo.brown.edu/profile-images/d35/925/edb/95a/46d/0ab/9f0/4cf/bbc/a11/c6/wwarrenj_photo_.jpg){.lightbox}
+:::
+::::
+
+## Behavioral priorities (evolutionary view)
 
 - Secure sustenance (food & drink)...
 - Avoid harm
@@ -82,15 +109,16 @@ format:
 - Who/what's out there
 - Where am I positioned/moving
 - What should I do next
+- Outside world and inside world
 
-## *Extero*ception ($E$) provides information about...
+## *Extero*ception ($E$)...
 
 - Geometry and motion of objects and surfaces
 - Surface properties (color, texture, rigidity)
 - Object properties
   - animate/inanimate; familiar/un-; person/animal...; threat/not-, etc.
 
-## *Intero*ception ($I$) provides information about...
+## *Intero*ception ($I$)...
 
 - Current states (of body, and thoughts, emotions, plans)
 - Past states (a.k.a., memories)
@@ -117,6 +145,33 @@ format:
 
 ::::
 
+## Psychophysical methods
+
+- *Method of constants* (fixed levels)
+- *Method of adjustment* (raise/lower amplitude until detectable/indetectable)
+- *Method of limits* ("can you see me now? now?"; often use staircases)
+
+## Virtues of $\Psi$ *functions*
+
+![Change in visual acuity from <https://gilmore-lab.github.io/visual-acuity/>](https://gilmore-lab.github.io/visual-acuity/data_files/figure-html/fig-teller-acuity-across-age-1.png)
+---
+
+![[Figure 2 from @Qian2021-eu]](include/img/qian-seisler-gilmore-2021-fig02.png)
+
+---
+
+<https://gilmore-lab.github.io/sex-differences-project/analysis/by-participant-plots/contrast-staircase-plots.html>
+
+<https://gilmore-lab.github.io/sex-differences-project/analysis/by-participant-plots/contrast-cum-perf-plots.html>
+
+<https://gilmore-lab.github.io/sex-differences-project/analysis/by-participant-plots/motion-staircase-plots.html>
+
+<https://gilmore-lab.github.io/sex-differences-project/analysis/by-participant-plots/motion-cum-perf-plots.html>
+
+---
+
+![[Figure 1 from @Qian2022-yp]](https://gilmore-lab.github.io/sex-differences-project/analysis/paper_figs/fig-01-boxplots-new.jpg)
+
 ## Rates of visual development...
 
 ---
@@ -137,12 +192,10 @@ format:
 
 ::::
 
-## Rates of visual development
+## ...Vary across visual functions
 
-- Vary across visual functions
-- Some (e.g., motion perception) not mature until adolescence.
-
-## Implications?
+- Some (e.g., many measures of motion perception) not mature until adolescence.
+- Implications?
 
 ## Motor development
 
@@ -347,6 +400,8 @@ Eleanor Jack Gibson</br>
 
 >"*I have been deeply distressed in recent years by people who refer to certain achievements of infancy as "innate," and then drop the problem as if it were solved. This is a futile, evasive tactic.*"
 
+---
+
 >"*...we gain our understanding from change and becoming.*"
 
 ## Hallmarks of human behavior
@@ -402,7 +457,7 @@ Alan Newell</br>
 
 ## Perception
 
-- Develops across childhood
+- Develops across childhood (as does action)
 - Physical development changes experienced visual input
 - But cultural may not change motion input (very much)
 
